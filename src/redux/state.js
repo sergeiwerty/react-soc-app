@@ -33,7 +33,14 @@ let state = {
       // {id: 4, content: "Evgenia"},
       // {id: 5, content: "Lars"}
     ]
-  }
+  },
+
+  Friends : [
+    {id : 1, fullName : "Patrick Murphy"},
+    {id : 2, fullName : "Conor Ryan"},
+    {id : 3, fullName : "Ellie Brennan"},
+  ]
+
 }
 
 

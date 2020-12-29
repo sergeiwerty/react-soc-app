@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce160440-8789-4b53-8e13-4ae88993d463" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Aside/FriendsBlock/Friend/Friend.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Aside/FriendsBlock/Friend/Friend.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Aside/FriendsBlock/Friends.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Aside/FriendsBlock/Friends.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +71,7 @@
       <workItem from="1608391194887" duration="11475000" />
       <workItem from="1608618888273" duration="12496000" />
       <workItem from="1608661797802" duration="31866000" />
-      <workItem from="1609181075247" duration="3559000" />
+      <workItem from="1609181075247" duration="14655000" />
     </task>
     <servers />
   </component>

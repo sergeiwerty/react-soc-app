@@ -32,13 +32,9 @@ function App(props) {
     <BrowserRouter>
       <div className="app-wrapper">
         <Header/>
-        <Aside/>
+        <Aside FriendsData={props.Data} />
         <div className="dialogs-wrapper">
-          {/*<Route exact path="/userprofile" component={UserProfile}/>*/}
           <Route exact path="/userprofile" render={()=> <UserProfile PostsData={props.Data} />} />
-
-          {/*<Route exact path="/dialogs" render={()=> <Dialogs dialogsData={props.dialogsData} messagesData={props.messagesData} />} />*/}
-          {/*<Route exact path="/dialogs" render={()=> <Dialogs MessagesData={props.Messages} />} />*/}
           <Route exact path="/dialogs" render={()=> <Dialogs MessagesData={props.Data} />} />
         </div>
       </div>
