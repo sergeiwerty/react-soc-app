@@ -1,24 +1,48 @@
-import logo from './logo.svg';
+import React from 'react';
+import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
+import Aside from './components/Aside/Aside';
+import Header from './components/Header/Header';
+import Dialogs from './components/Dialogs/Dialogs';
+import UserProfile from './components/UserProfile/UserProfile';
+// import State from "./redux/state";
+// import Post from "./components/UserProfile/MyPosts/Post/Post";
+// import Dialog from "./components/Dialogs/Dialog";
 
-function App() {
+// const DialogsData = [
+//   {id: 1, name: "Teddy"},
+//   {id: 2, name: "Maria"},
+//   {id: 3, name: "Ezra"},
+//   {id: 4, name: "Evgenia"},
+//   {id: 5, name: "Lars"}
+// ];
+//
+// const MessagesData = [
+//   {id: 1, text: "How do you feel?"},
+//   {id: 2, text: "Let's talk about React!"},
+//   {id: 3, text: "Yep! I love pizza."},
+//   {id: 4, text: "It's amazing"},
+//   {id: 5, text: "Functional programming is great!"}
+// ];
+
+// const DialogsDataMap = DialogsData.map( dialog => <DialogItem id={dialog.id } name={dialog.name} />);
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="app-wrapper">
+        <Header/>
+        <Aside/>
+        <div className="dialogs-wrapper">
+          {/*<Route exact path="/userprofile" component={UserProfile}/>*/}
+          <Route exact path="/userprofile" render={()=> <UserProfile PostsData={props.Data} />} />
+
+          {/*<Route exact path="/dialogs" render={()=> <Dialogs dialogsData={props.dialogsData} messagesData={props.messagesData} />} />*/}
+          {/*<Route exact path="/dialogs" render={()=> <Dialogs MessagesData={props.Messages} />} />*/}
+          <Route exact path="/dialogs" render={()=> <Dialogs MessagesData={props.Data} />} />
+        </div>
+      </div>
+    </BrowserRouter>
   );
 }
 

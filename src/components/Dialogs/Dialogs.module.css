@@ -1,0 +1,12 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.className {
+    color: black;
+}
+
+.message-area {
+
+}

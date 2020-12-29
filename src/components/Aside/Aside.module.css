@@ -1,0 +1,14 @@
+.sidebar {
+  grid-area: sidebar;
+  background-color: azure;
+}
+
+.item a {
+  font-family: 'Roboto Slab', serif;
+  color: black;
+  text-decoration: none;
+}
+
+.item a.active {
+  color: #7b2c2c;
+}
