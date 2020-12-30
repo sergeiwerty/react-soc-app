@@ -3,7 +3,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
 import Aside from './components/Aside/Aside';
 import Header from './components/Header/Header';
-import Dialogs from './components/Dialogs/Dialogs';
+import { Dialogs } from './components/Dialogs/Dialogs';
 import UserProfile from './components/UserProfile/UserProfile';
 // import State from "./redux/state";
 // import Post from "./components/UserProfile/MyPosts/Post/Post";

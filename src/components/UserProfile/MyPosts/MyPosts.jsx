@@ -1,6 +1,6 @@
 import React from 'react';
 import Post from './Post/Post';
-import NewPost from "./NewPost/NewPost";
+import { NewPost } from "./NewPost/NewPost";
 
 // const PostsData = [
 //   {
