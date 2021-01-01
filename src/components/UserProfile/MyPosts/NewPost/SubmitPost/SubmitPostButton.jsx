@@ -7,6 +7,7 @@ const SubmitPostButton = (props) => {
     // debugger;
     let text = props.post.current.value;
     props.AddPostFunc(text);
+    props.post.current.value = "";
   };
 
   return (

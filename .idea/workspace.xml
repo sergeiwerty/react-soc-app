@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce160440-8789-4b53-8e13-4ae88993d463" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/NewPost/NewPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/NewPost/NewPost.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/NewPost/SubmitPost/SubmitPostButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/NewPost/SubmitPost/SubmitPostButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserProfile/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile/UserProfile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +67,7 @@
       <workItem from="1608661797802" duration="31866000" />
       <workItem from="1609181075247" duration="22660000" />
       <workItem from="1609341185542" duration="8239000" />
-      <workItem from="1609480433031" duration="11701000" />
+      <workItem from="1609480433031" duration="12184000" />
     </task>
     <servers />
   </component>
