@@ -1,3 +1,5 @@
+import {rerenderEntireTree} from "../render";
+
 let state = {
   Messages : {
     DialogsData : [
@@ -41,6 +43,13 @@ let state = {
     {id : 3, fullName : "Ellie Brennan"},
   ]
 
+}
+
+export const addPostFunc= (postText) => {
+  // debugger;
+  let newPost = {id : null, heading : null, content : postText};
+  state.Data.PostsData.push(newPost);
+  rerenderEntireTree(state);
 }
 
 

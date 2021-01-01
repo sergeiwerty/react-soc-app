@@ -1,11 +1,12 @@
 import React from "react";
-import { popUpMessage } from "../NewPost";
+// import { popUpMessage } from "../NewPost";
 
-const SubmitPostButton = () => {
+const SubmitPostButton = (props) => {
 
   const addPost = () => {
-    let text = popUpMessage.current.value;
-    alert(text);
+    // debugger;
+    let text = props.post.current.value;
+    props.AddPostFunc(text);
   };
 
   return (

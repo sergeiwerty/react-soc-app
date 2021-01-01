@@ -12,7 +12,7 @@ const UserProfile = (props) => {
       <div>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCwwF8YK4JX1sMHKQWi_jB6u3DmaXtixwmIw&usqp=CAU" alt="avatar" />
       </div>
-      <MyPosts Posts={props.PostsData.Data} />
+      <MyPosts Posts={props.PostsData.Data} AddPostFunc={props.AddPostFunc}/>
     </main>
   )
 }
