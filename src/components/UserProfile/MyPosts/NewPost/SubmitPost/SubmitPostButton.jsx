@@ -1,13 +1,16 @@
 import React from "react";
 // import { popUpMessage } from "../NewPost";
+// import textAreaValue from "../ReadInputSymbols/ReadInputSymbols";
 
 const SubmitPostButton = (props) => {
 
   const addPost = () => {
-    // debugger;
-    let text = props.post.current.value;
+    console.log(textAreaValue);
+    debugger;
+    // let text = props.post.current.value;
+    let text = textAreaValue;
     props.AddPostFunc(text);
-    props.post.current.value = "";
+    // props.AddPostFunc("");
   };
 
   return (

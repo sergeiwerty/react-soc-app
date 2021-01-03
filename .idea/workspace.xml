@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce160440-8789-4b53-8e13-4ae88993d463" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/NewPost/ReadInputSymbols/ReadInputSymbols.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aside/FriendsBlock/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/FriendsBlock/Friends.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/NewPost/NewPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/NewPost/NewPost.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/NewPost/SubmitPost/SubmitPostButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile/MyPosts/NewPost/SubmitPost/SubmitPostButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserProfile/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile/UserProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +62,16 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="ReadInputSymbols.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/UserProfile/MyPosts/NewPost/ReadInputSymbols/ReadInputSymbols.jsx" working-dir="$PROJECT_DIR$/src/components/UserProfile/MyPosts/NewPost/ReadInputSymbols">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.ReadInputSymbols.jsx" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +86,9 @@
       <workItem from="1608661797802" duration="31866000" />
       <workItem from="1609181075247" duration="22660000" />
       <workItem from="1609341185542" duration="8239000" />
-      <workItem from="1609480433031" duration="12184000" />
+      <workItem from="1609480433031" duration="16459000" />
+      <workItem from="1609570392447" duration="10132000" />
+      <workItem from="1609585187613" duration="20503000" />
     </task>
     <servers />
   </component>

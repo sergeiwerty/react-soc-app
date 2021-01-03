@@ -34,7 +34,8 @@ let state = {
       // {id: 3, content: "Ezra"},
       // {id: 4, content: "Evgenia"},
       // {id: 5, content: "Lars"}
-    ]
+    ],
+    newPostText : "some text",
   },
 
   Friends : [
@@ -47,8 +48,17 @@ let state = {
 
 export const addPostFunc= (postText) => {
   // debugger;
-  let newPost = {id : null, heading : null, content : postText};
+  let newPost = {id : 3, heading : "", content : postText};
+  // state.Data.newPostText.push(newPost);
   state.Data.PostsData.push(newPost);
+  rerenderEntireTree(state);
+}
+
+export const addSymbFunc= (symbols) => {
+  // debugger;
+  // let newPost = {id : 5, heading : "", content : symbols};
+    state.Data.newPostText = symbols;
+  // state.Data.PostsData.push(newPost); изменял данные внутри PostsData, а render делал из newPostText
   rerenderEntireTree(state);
 }
 

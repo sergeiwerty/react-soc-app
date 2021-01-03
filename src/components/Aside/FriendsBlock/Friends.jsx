@@ -5,7 +5,7 @@ import styles from "./Friends.module.css";
 const Friends= (props) => {
   // const FriendsListMap = props.FriendsInfo.FriendsData.Data.map( friend => <DialogItem id={friend.id } name={friend.name} />);
   // debugger;
-  const FriendsListMap = props.FriendsInfo.Friends.map( friend => <Friend FriendData={friend.fullName} />);
+  const FriendsListMap = props.Friends.map( friend => <Friend FriendData={friend.fullName} />);
 
   return (
     <section>

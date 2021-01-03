@@ -6,19 +6,19 @@ import Header from './components/Header/Header';
 import { Dialogs } from './components/Dialogs/Dialogs';
 import UserProfile from './components/UserProfile/UserProfile';
 import {addPost} from "./redux/state";
-// import State from "./redux/state";
-// import Post from "./components/UserProfile/MyPosts/Post/Post";
-// import Dialog from "./components/Dialogs/Dialog";
 
 function App(props) {
+  // debugger
   return (
     <BrowserRouter>
       <div className="app-wrapper">
         <Header/>
-        <Aside FriendsData={props.Data} />
+        <Aside Friends={props.State.Friends} />
         <div className="dialogs-wrapper">
-          <Route exact path="/userprofile" render={()=> <UserProfile PostsData={props.Data}
-                                                                     AddPostFunc={props.addPostFunc}/>} />
+          {/*<Route exact path="/userprofile" render={()=> <UserProfile PostsData={props.Data}*/}
+          <Route exact path="/userprofile" render={()=> <UserProfile PostsData={props.State.Data}
+                                                                     AddPostFunc={props.addPostFunc}
+                                                                     AddSymbFunc={props.addSymbFunc}/>}/>
           <Route exact path="/dialogs" render={()=> <Dialogs MessagesData={props.Data} />} />
         </div>
       </div>

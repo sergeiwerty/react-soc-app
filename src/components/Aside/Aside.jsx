@@ -14,7 +14,7 @@ const Aside = (props) => {
         <li className={classes.item}><NavLink to="/settings">Settings</NavLink></li>
       </ul>
       {/*debugger;*/}
-      <Friends FriendsInfo={props.FriendsData}/>
+      <Friends Friends={props.Friends}/>
     </aside>
   )
 }
